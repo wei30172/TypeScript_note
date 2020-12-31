@@ -11,7 +11,7 @@ TypeScript 特性
 先備知識
 1.Arrow functions // ES6箭頭函式
 2.The Dom // Document Object Model
-4.classes
+3.classes
 
 前置準備
 1.安裝 node.js
