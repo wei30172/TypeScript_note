@@ -1,4 +1,4 @@
-// [explicit types 明確型別宣告]
+// explicit types 明確型別宣告
 
 let food: string;
 let price: number;
@@ -22,7 +22,7 @@ meal.push('bread');
 meal.push('noodle');
 console.log(meal);
 
-// [union types 複合型別 or 聯合型別]
+// union types 複合型別 or 聯合型別
 let mixed: (string|number|boolean)[] = [];
 mixed.push('yoyoyo');
 mixed.push(false);
@@ -33,7 +33,6 @@ let uid: string|number;
 // uid = true;
 uid = '123';
 uid = 123;
-
 console.log(uid);
 
 // objects

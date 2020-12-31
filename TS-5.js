@@ -1,4 +1,4 @@
-// [explicit types 明確型別宣告]
+// explicit types 明確型別宣告
 var food;
 var price;
 var isHotProduct;
@@ -15,7 +15,7 @@ var meal = []; // 宣告為空陣列，才可操作陣列
 meal.push('bread');
 meal.push('noodle');
 console.log(meal);
-// [union types 複合型別 or 聯合型別]
+// union types 複合型別 or 聯合型別
 var mixed = [];
 mixed.push('yoyoyo');
 mixed.push(false);
