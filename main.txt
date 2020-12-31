@@ -1,8 +1,0 @@
-學習資源
-The Net Ninja - TypeScript Tutoria
-https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI&index=1
-
-前置準備
-1.安裝 node.js
-2.安裝 TypeScript
-$ npm install -g typescript
