@@ -1,0 +1,45 @@
+學習資源
+The Net Ninja - TypeScript Tutoria
+https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI&index=1
+
+TypeScript 特性
+1.Alternative to javaScript(superset).
+2.Allow us to use strict types. // 嚴格規定型別
+3.Supports modern features (arrow functions, let, const) // 支援新語法
+4.Extra features(generics, interface, tuples etc)
+
+先備知識
+1.Arrow functions // ES6箭頭函式
+2.The Dom // Document Object Model
+4.classes
+
+前置準備
+1.安裝 node.js
+2.安裝 TypeScript
+$ npm install -g typescript
+
+使用指令
+ts檔轉為js檔指令
+$ tsc 檔名.ts 檔名.js // tsc 檔名.ts 也可work，會自動產生同檔名js
+
+若出現".ps1 檔案無法載入，因為這個系統上已停用指令碼執行。"問題
+1.開啟PowerShell ISE，輸入指令get-executionpolicy，應該會顯示Restricted。
+2.輸入指令set-executionpolicy remotesigned，更改執行原則即可。
+
+存檔時，ts檔自動轉為js檔指令
+$ tsc 檔名.ts -w
+
+產生tsconfig.json檔(設定參數用)
+$ tsc --init
+
+設定ts檔存取位置及js檔產生位置(於tsconfig.json檔設定)
+(打包時只打包public資料中的內容)
+"outDir": "./public",
+"rootDir": "./src",
+
+完成前一步驟後，輸入指令即可在存檔時，
+將src資料夾所有ts檔，轉為js檔儲存於public資料夾
+$ tsc --w 
+
+限制在src資料夾中的ts檔才會轉成js檔(於tsconfig.json檔設定)，須加上
+"include": ["src"]
