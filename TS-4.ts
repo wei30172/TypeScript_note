@@ -1,7 +1,7 @@
 // arrays
 let names = ['bread', 'noodle', 'soup'];
 
-names.push('friut');
+names.push('fruit');
 // names.push(5);
 // names[1] = 5;
 

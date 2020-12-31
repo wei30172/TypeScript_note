@@ -1,6 +1,6 @@
 // arrays
 var names = ['bread', 'noodle', 'soup'];
-names.push('friut');
+names.push('fruit');
 // names.push(5);
 // names[1] = 5;
 var price = [70, 100, 60, 200];
