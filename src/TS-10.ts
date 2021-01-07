@@ -1,7 +1,7 @@
-// Function
+// 設定回傳值型別
 
 // Example 1
-let talk: (a: string, b: string) => void;
+let talk: (a: string, b: string) => void; // 不限回傳值型別
 
 talk = (name: string, words: string) => {
   console.log(`${name} says ${words} !`);
@@ -10,7 +10,7 @@ talk = (name: string, words: string) => {
 talk('Claire', 'hi'); // Claire says hi !
 
 // Example 2
-let calc: (a: number, b: number, c: string) => number;
+let calc: (a: number, b: number, c: string) => number; // 回傳值為數字
 
 calc = (numOne: number, numTwo: number, action: string) => {
   if (action === 'add') {
@@ -21,7 +21,7 @@ calc = (numOne: number, numTwo: number, action: string) => {
 }
 
 // Example 3
-let logDetails: (obj: {name: string, age: number}) => void;
+let logDetails: (obj: {name: string, age: number}) => void; // 不限回傳值型別
 
 type person = {name: string, age: number};
 
