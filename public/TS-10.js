@@ -1,13 +1,13 @@
 "use strict";
-// Function
+// 設定回傳值型別
 // Example 1
-var talk;
+var talk; // 不限回傳值型別
 talk = function (name, words) {
     console.log(name + " says " + words + " !");
 };
 talk('Claire', 'hi'); // Claire says hi !
 // Example 2
-var calc;
+var calc; // 回傳值為數字
 calc = function (numOne, numTwo, action) {
     if (action === 'add') {
         return numOne + numTwo;
@@ -17,7 +17,7 @@ calc = function (numOne, numTwo, action) {
     }
 };
 // Example 3
-var logDetails;
+var logDetails; // 不限回傳值型別
 logDetails = function (student) {
     console.log(student.name + " is " + student.age + " years old.");
 };
